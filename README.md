@@ -1,11 +1,18 @@
 # JPi-HeadUnit
 Implementing computer vision for person &amp; animal detection using HDMI capture card (webcam compatible) &amp; coral tpu on B-Key &amp; Carplay on Raspberry Pi 5
 
-## Hardware List
+## Components
 
 ### Computing
-- Single Board Computer - [Raspberry Pi 5 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-5/)
-- AI Compute - [Pineberry Pi Hat Ai!](https://pineboards.io/products/hat-ai-for-raspberry-pi-5)
+- Single Board Computer
+  - [Raspberry Pi 5 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-5/) or
+  - [Raspberry Pi 4 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-4/)
+- AI Compute
+  - Raspberry Pi 5
+      - [Pineberry Pi Hat Ai!](https://pineboards.io/products/hat-ai-for-raspberry-pi-5)
+      - 
+  -Raspberry Pi 4
+      - USB Coral Accelerator
 
 ### Vision
 - Camera [ATOTO AC-HD03LR 720P Rearview Backup Camera (180° Wide-Angle)](https://www.amazon.com/gp/product/B08RD5QND6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
@@ -15,4 +22,19 @@ Implementing computer vision for person &amp; animal detection using HDMI captur
 
 ### Audio
 - Audio Digital Analog Converter - [Raspberry Pi HiFi DAC Pro Hat ES9038Q2M Audio Card PCM DSD Lossless High Resolution Digital-to-Analog Converter Adapter](https://www.inno-maker.com/product/hifi-dac-pro/)
-- 
+
+Repo:
+
+### Steering Wheel Control
+- Raspberry Pi Pico
+
+Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control)
+
+### A/C Control
+- Raspberry Pi Pico
+
+Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control)
+
+### Phone Connectivity Carplay & Android Auto
+- Carlinkit
+- Lightning or USB-C Cable
