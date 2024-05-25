@@ -16,6 +16,7 @@ Provides an interface for user to control & use the connected phone, music, temp
 ### Parts
 
 **Electronic**
+
 *Compute*
 - Single Board Computer
   - [Raspberry Pi 4 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-4/)
