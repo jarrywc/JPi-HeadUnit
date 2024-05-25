@@ -1,40 +1,65 @@
 # JPi-HeadUnit
 Implementing computer vision for person &amp; animal detection using HDMI capture card (webcam compatible) &amp; coral tpu on B-Key &amp; Carplay on Raspberry Pi 5
 
-## Components
+# Features
 
-### Computing
+## Touchscreen with Raspbian OS
+
+### Software Implementation
+
+
+### Electronic Parts
+
+**Compute**
 - Single Board Computer
-  - [Raspberry Pi 5 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-5/) or
   - [Raspberry Pi 4 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-4/)
-- AI Compute
-  - Raspberry Pi 5
-      - [Pineberry Pi Hat Ai!](https://pineboards.io/products/hat-ai-for-raspberry-pi-5)
-      - 
-  -Raspberry Pi 4
-      - USB Coral Accelerator
 
-### Vision
-- Camera [ATOTO AC-HD03LR 720P Rearview Backup Camera (180° Wide-Angle)](https://www.amazon.com/gp/product/B08RD5QND6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- RCA to HDMI Adapter - [ABLEWE RCA to HDMI,AV to HDMI Converter](https://www.amazon.com/dp/B07RX69KR8?ref=ppx_yo2ov_dt_b_product_details&th=1)
-- Camera Input Source via HDMI Video Capture Card [Audio/Video Capture Card, USB3.0 HDMI to USB C](https://www.amazon.com/gp/product/B08Z3XDYQ7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+**Output Vision**
 - Display - [waveshare 10.4inch](https://www.waveshare.com/10.4hp-capqled.htm)
 
-### Audio
+**Steering Wheel Control**
+- [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+
+Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control)
+
+
+### Resources
+
+## Rear Camera Object Recognition
+### Software Implementation
+**Description**
+Using OpenCV to adjust the 120 degree wide angle camera
+
+
+### Electronic Parts
+
+**Compute**
+- AI Compute
+  - [USB Coral Accelerator](https://coral.ai/products/accelerator/)
+
+**Input Vision**
+- High FPS Wide Angle Camera (120 Degree, 90 FPS, Global Shutter) [ELP High Speed Wide Angle Global Shutter USB Camera Module](https://www.amazon.com/dp/B0C3C2YVK9?ref=ppx_yo2ov_dt_b_product_details&th=1)
+
+**Audio**
 - Audio Digital Analog Converter - [Raspberry Pi HiFi DAC Pro Hat ES9038Q2M Audio Card PCM DSD Lossless High Resolution Digital-to-Analog Converter Adapter](https://www.inno-maker.com/product/hifi-dac-pro/)
 
-Repo:
 
-### Steering Wheel Control
-- Raspberry Pi Pico
+### Resources
+
+
+## Temperature
+
+**A/C Control**
+- [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+- Transistor 
 
 Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control)
 
-### A/C Control
-- Raspberry Pi Pico
+**Front Seats Temperature Control**
+- [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+- 3.3V Relay
 
-Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control)
+## Phone Connectivity Carplay & Android Auto
+- Carlinkit [CarlinKit CarPlay Dongle only for Car with Android Head Unit System 4.4.0+](https://www.amazon.com/gp/product/B09ZQJXWVW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+- Lightning Cable or USB-C Cable
 
-### Phone Connectivity Carplay & Android Auto
-- Carlinkit
-- Lightning or USB-C Cable
