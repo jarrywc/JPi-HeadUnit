@@ -13,19 +13,25 @@ Provides an interface for user to control & use the connected phone, music, temp
 - Python 3.9 (Compatibility needed for Tensorflow Lite with Coral AI)
 - Raspbian OS (based on )
 
-### Electronic Parts
+### Parts
 
-**Compute**
+**Electronic**
+*Compute*
 - Single Board Computer
   - [Raspberry Pi 4 (8gb)](https://www.raspberrypi.com/products/raspberry-pi-4/)
 
-**Output Vision**
+*Output Vision*
 - Display - [waveshare 10.4inch](https://www.waveshare.com/10.4hp-capqled.htm)
 
-**Steering Wheel Control**
+*Steering Wheel Control*
 - [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 
 Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control)
+
+**Mounts & Fixtures**
+
+
+**Cables & Wiring**
 
 
 ### Resources
