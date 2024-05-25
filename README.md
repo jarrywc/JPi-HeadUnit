@@ -5,8 +5,13 @@ Implementing computer vision for person &amp; animal detection using HDMI captur
 
 ## Touchscreen with Raspbian OS
 
-### Software Implementation
+### Software
+**Description**
+Provides an interface for user to control & use the connected phone, music, temperature, & rear camera.
 
+**Requirements**
+- Python 3.9 (Compatibility needed for Tensorflow Lite with Coral AI)
+- Raspbian OS (based on )
 
 ### Electronic Parts
 
@@ -26,9 +31,10 @@ Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control
 ### Resources
 
 ## Rear Camera Object Recognition
-### Software Implementation
+### Software
 **Description**
-Using OpenCV to adjust the 120 degree wide angle camera
+Using wide angle camera in rear of vehicle to detect safety conditions
+
 
 
 ### Electronic Parts
@@ -59,7 +65,8 @@ Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control
 - [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 - 3.3V Relay
 
-## Phone Connectivity Carplay & Android Auto
+## Phone Connectivity -> Carplay & Android Auto
 - Carlinkit [CarlinKit CarPlay Dongle only for Car with Android Head Unit System 4.4.0+](https://www.amazon.com/gp/product/B09ZQJXWVW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 - Lightning Cable or USB-C Cable
 
+# Tools & Equipment
