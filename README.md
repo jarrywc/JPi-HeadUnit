@@ -13,7 +13,7 @@ Provides an interface for user to control & use the connected phone, music, temp
 - Python 3.9 (Compatibility needed for Tensorflow Lite with Coral AI)
 - Raspbian OS (based on )
 
-### Parts
+### Hardware Parts
 
 **Electronic**
 
@@ -75,5 +75,28 @@ Repo: [JPiPico-Car-AC-Control](https://github.com/jarrywc/JPiPico-Car-AC-Control
 ## Phone Connectivity -> Carplay & Android Auto
 - Carlinkit [CarlinKit CarPlay Dongle only for Car with Android Head Unit System 4.4.0+](https://www.amazon.com/gp/product/B09ZQJXWVW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 - Lightning Cable or USB-C Cable
+
+## OBD2 Car Gauges
+
+### Software
+
+
+
+### Hardware Parts
+
+**ODB2 Connection**
+
+
+- [Veepeak Mini Bluetooth OBD II ](https://www.amazon.com/dp/B011NSX27A?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+
+
+## GPS Tracking
+
+### Software
+
+### Hardware Parts
+
+- [GPS Module,Navigation Satellite Positioning NEO-6M](https://www.amazon.com/gp/product/B0B31NRSD2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+
 
 # Tools & Equipment
